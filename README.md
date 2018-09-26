@@ -73,6 +73,8 @@ router.get('/users/me', asyncMethod(isLogggedIn), userController.getData);
 * Method: POST
 * Content-type: application/json
 * Body: ```name```, ```email```, ```password```
+  ![alt ](https://image.ibb.co/j0Cwbp/JsonRegs.png)
+
 
 #### Login 
 * Route: /users/login
@@ -80,8 +82,13 @@ router.get('/users/me', asyncMethod(isLogggedIn), userController.getData);
 * Content-type: application/json
 * Body: ```email```, ```password```
 * Result: token
+  ![alt ](https://image.ibb.co/m4Rdp9/JsonLog.png)
+
 #### Get user data 
 * Route: /users/getData
 * Method: GET
 * Authorization: token
 * Result: current user data
+
+
+#### Login
