@@ -15,11 +15,6 @@ router.post('/users/register',
   validate(SaveUser),
   asyncMethod(userController.register)
 );
-router.post('/salon', asyncMethod(salonController.salon()));
-router.post('/', asyncMethod(salonController.index()));
-
-// router.get('/v2/salon', asyncMethod(isLogggedIn), salonController.index());
-
 router.post('/users/login', asyncMethod(userController.login));
 router.get('/users/me', asyncMethod(isLogggedIn), userController.getData);
 
