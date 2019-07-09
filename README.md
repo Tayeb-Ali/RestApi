@@ -2,7 +2,7 @@
 
 node.js boilerplate to make bulding RESTful API faster, with mongodb nosql database.
 
-## Better venison
+## Better version
 ```
     https://github.com/x249/node-api
 ```
