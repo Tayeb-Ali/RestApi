@@ -2,6 +2,12 @@
 
 node.js boilerplate to make bulding RESTful API faster, with mongodb nosql database.
 
+## Better venison
+```
+    https://github.com/x249/node-api
+```
+      "description": "Backend API built using TypeScript, Express and MongoDB"
+
 ## Features
 
 * User model with Authentication 
