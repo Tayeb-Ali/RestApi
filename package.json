@@ -8,7 +8,7 @@
     "build": "mkdir dist && babel src -s -D -d dist --presets es2015,stage-2"
   },
   "dependencies": {
-    "bcrypt": "^3.0.0",
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
     "cors": "^2.8.4",
     "dotenv": "^8.0.0",
